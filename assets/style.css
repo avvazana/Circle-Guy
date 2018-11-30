@@ -19,7 +19,7 @@ h1 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 500px;
+  width: 700px;
 }
 
 #pacman {
@@ -29,6 +29,30 @@ h1 {
   background-size: 40px;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.ghost {
+  width: 50px;
+  height: 50px;
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.blinky {
+  background-image: url("blinky.svg");
+}
+
+.pinky {
+  background-image: url("pinky.svg");
+}
+
+.inky {
+  background-image: url("inky.svg");
+}
+
+.clyde {
+  background-image: url("clyde.svg");
 }
 
 .wall {
@@ -62,5 +86,7 @@ h1 {
   z-index: 1;
   margin: auto;
   align-self: center;
-  margin-right: 450px;
+  margin-right: 800px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
