@@ -3,21 +3,27 @@
   background-color: blue;
 }
 
-div {
-  width: 50px;
-  height: 50px;
-  /* border-top: 1px solid purple;
-  border-bottom: 1px solid purple; */
+.pacman-page{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+h1 {
+  color: lightgray;
 }
 
 #pacman-board{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 60%;
+  width: 500px;
 }
 
-.pacman {
+#pacman {
+  width: 50px;
+  height: 50px;
   background-image: url("pacman.png");
   background-size: 40px;
   background-repeat: no-repeat;
@@ -25,13 +31,17 @@ div {
 }
 
 .wall {
+  width: 50px;
+  height: 50px;
   background-image: url("cobblewall.png");
   background-size: 200px;
   box-shadow: inset 1px 1px 1px black;
-
+  filter: invert(1);
 }
 
 .coin {
+  width: 50px;
+  height: 50px;
   background-image: url("coin.png");
   background-size: 10px;
   background-repeat: no-repeat;
@@ -39,5 +49,7 @@ div {
 }
 
 .ground {
+  width: 50px;
+  height: 50px;
   background-color: blue;
 }
