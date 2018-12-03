@@ -25,8 +25,8 @@ h1, h2 {
 #pacman {
   width: 35px;
   height: 35px;
-  background-image: url("pacman.png");
-  background-size: 32px;
+  background-image: url("pacmanTest2.gif");
+  background-size: 100px;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -76,6 +76,26 @@ h1, h2 {
   width: 35px;
   height: 35px;
   background-color: #200938;
+}
+
+.portalFirst {
+  width: 35px;
+  height: 35px;
+  background-image: url("portalFirst.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* filter: hue-rotate(300deg); */
+}
+
+.portalSecond {
+  width: 35px;
+  height: 35px;
+  background-image: url("portalSecond.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* filter: hue-rotate(30deg); */
 }
 
 .game-over {
