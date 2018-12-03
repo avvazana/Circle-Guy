@@ -1,6 +1,6 @@
 
 *{
-  background-color: blue;
+  background-color: #200938;
 }
 
 .pacman-page{
@@ -58,10 +58,9 @@ h1, h2 {
 .wall {
   width: 35px;
   height: 35px;
-  background-image: url("cobblewall.png");
-  background-size: 160px;
-  box-shadow: inset 1px 1px 1px black;
-  filter: invert(1);
+  background-image: url("tile.png");
+  background-size: cover;
+  /* filter: hue-rotate(150deg) brightness(1.25); */
 }
 
 .coin {
@@ -76,7 +75,7 @@ h1, h2 {
 .ground {
   width: 35px;
   height: 35px;
-  background-color: blue;
+  background-color: #200938;
 }
 
 .game-over {
@@ -89,4 +88,4 @@ h1, h2 {
   margin-right: 800px;
   padding-left: 200px;
   padding-right: 200px;
-}
+/* } */
