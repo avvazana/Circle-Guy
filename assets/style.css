@@ -72,6 +72,16 @@ h1, h2 {
   background-position: center;
 }
 
+.pellet {
+  width: 35px;
+  height: 35px;
+  background-image: url("coin.png");
+  background-size: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: drop-shadow(3px 3px 4px blue) invert(30%);
+}
+
 .ground {
   width: 35px;
   height: 35px;
@@ -108,4 +118,9 @@ h1, h2 {
   margin-right: 800px;
   padding-left: 200px;
   padding-right: 200px;
-/* } */
+}
+
+@keyframes example {
+    0%   {left:0px;}
+    100%  {left:200px;}
+}
