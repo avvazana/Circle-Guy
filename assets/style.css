@@ -12,11 +12,23 @@
   overflow-x: hidden;
   overflow-y: hidden;
   height: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 h1, h2 {
   color: #edef75;
   font-family: 'Bungee', cursive;
+}
+
+h2 {
+  font-size: 17px;
+}
+
+h3 {
+  color: #edef75;
+  font-family: 'Bungee', cursive;
+  font-size: 14px;
 }
 
 #pacman-board{
@@ -129,9 +141,19 @@ h1, h2 {
   /* filter: hue-rotate(30deg); */
 }
 
+.arrow {
+  width: 35px;
+  height: 35px;
+  background-image: url("leftArrow.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* filter: hue-rotate(30deg); */
+}
+
 .game-over {
   color: lightgray;
-  font-size: 200px;
+  font-size: 100px;
   position: absolute;
   z-index: 1;
   margin: auto;
