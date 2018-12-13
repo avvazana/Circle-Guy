@@ -26,6 +26,8 @@ h2 {
 }
 
 h3 {
+  align-self: flex-start;
+  margin-left: 18.5%;
   color: #edef75;
   font-family: 'Bungee', cursive;
   font-size: 14px;
