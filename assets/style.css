@@ -27,7 +27,7 @@ h2 {
 
 h3 {
   align-self: flex-start;
-  margin-left: 18.5%;
+  margin-left: 8%;
   color: #edef75;
   font-family: 'Bungee', cursive;
   font-size: 14px;
@@ -150,6 +150,7 @@ h3 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  opacity: .6;
   /* filter: hue-rotate(30deg); */
 }
 
