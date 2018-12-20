@@ -1,6 +1,4 @@
 # Circle-Guy
-___
-
 A Pacman-inspired game.
 (https://avivazana.com/Circle-Guy/ "Circle-Guy Live")
 
@@ -54,5 +52,7 @@ renderDifferences(pacmanDifferences, ghostDifferences){
 ### Ghost Movements 
 
 There are 4 ghosts, each with it's own personality. 
+![alt text](https://github.com/avvazana/Circle-Guy/edit/master/assets/ghostMovements.png "Logo Title Text 1")
+
 
 
