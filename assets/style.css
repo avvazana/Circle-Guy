@@ -3,6 +3,10 @@
   background-color: #200030;
 }
 
+#status {
+  font-size: 10px;
+}
+
 .pacman-page{
   display: flex;
   flex-direction: column;
@@ -40,10 +44,19 @@ h3 {
   width: 1190px;
 }
 
-#pacman {
+.pacman {
   width: 35px;
   height: 35px;
   background-image: url("pacmanTest2.gif");
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pacmanDies {
+  width: 35px;
+  height: 35px;
+  background-image: url("pacmanGone.gif");
   background-size: 25px;
   background-repeat: no-repeat;
   background-position: center;
