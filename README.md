@@ -51,7 +51,28 @@ renderDifferences(pacmanDifferences, ghostDifferences){
 
 ![alt text](https://github.com/avvazana/Circle-Guy/raw/master/assets/ghostMovements.png "Ghost Movements")
 
-There are 4 ghosts, each with it's own personality. 
+There are 4 ghosts, each with it's own personality.
 
+Red Ghost: heads directly for Circle Guy
+Pink Ghost: heads to where Circle Guy is headed
+Orange Ghost: runs away from Circle Guy
+Blue Ghost: moves randomly
+
+By default, each ghost moves 'constructively' (in line with their personality) 80% of the time. 
+
+```javascript 
+    let randomValue = Math.random();
+    if (randomValue < constructivePercent){
+      ghostDirection = this.randomElement(constructiveMoves);
+    } else {
+      ghostDirection = this.randomElement(nonConstructiveMoves);
+    }
+
+    let dx = dxdyMoves[ghostDirection][0];
+    let dy = dxdyMoves[ghostDirection][1];
+
+    let newXCoord = ghostXCoord + dx;
+    let newYCoord = ghostYCoord + dy;
+```
 
 
