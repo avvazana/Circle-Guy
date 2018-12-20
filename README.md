@@ -1,6 +1,6 @@
 # Circle-Guy
 A Pacman-inspired game.
-(https://avivazana.com/Circle-Guy/ "Circle-Guy Live")
+[Circle-Guy Live](https://avivazana.com/Circle-Guy/)
 
 ## Instructions 
 
