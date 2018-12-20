@@ -3,8 +3,19 @@
   background-color: #200030;
 }
 
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1180px;
+  /* margin-left: 50px; */
+}
+
 #status {
-  font-size: 10px;
+  font-size: 17px;
+  /* margin-left: 400px; */
+  position: relative;
 }
 
 .pacman-page{
@@ -30,11 +41,9 @@ h2 {
 }
 
 h3 {
-  align-self: flex-start;
-  margin-left: 8%;
   color: #edef75;
   font-family: 'Bungee', cursive;
-  font-size: 14px;
+  font-size: 17px;
 }
 
 #pacman-board{
