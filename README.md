@@ -3,20 +3,19 @@ A Pacman-inspired game.
 (https://avivazana.com/Circle-Guy/ "Circle-Guy Live")
 
 ## Instructions 
-___
 
 ### Gameplay 
-___
+
 Collect all the dots in the maze while avoiding the four ghosts. 
 Collecting a larger pellet will make the ghosts 'scared' for a few moments, so eat them fast!
 
 ### Controls 
-___
+
 * Press any key to start 
 * Use the arrow keys to control Circle-Guy's movements
 
 ## Technologies 
-___
+
 * Vanilla JavaScript 
 * CSS
 * HTML5
@@ -24,7 +23,6 @@ ___
 The game is built from scratch, without the aid of external libraries like jQuery or Canvas. 
 
 ## Features 
-___ 
 
 ### Rendering 
 
@@ -52,7 +50,7 @@ renderDifferences(pacmanDifferences, ghostDifferences){
 ### Ghost Movements 
 
 There are 4 ghosts, each with it's own personality. 
-![alt text](https://github.com/avvazana/Circle-Guy/edit/master/assets/ghostMovements.png "Logo Title Text 1")
+![alt text](https://github.com/avvazana/Circle-Guy/raw/master/assets/ghostMovements.png "Logo Title Text 1")
 
 
 
