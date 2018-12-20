@@ -49,8 +49,8 @@ renderDifferences(pacmanDifferences, ghostDifferences){
 
 ### Ghost Movements 
 
+(https://github.com/avvazana/Circle-Guy/raw/master/assets/ghostMovements.png "Ghost Movements")
 There are 4 ghosts, each with it's own personality. 
-![alt text](https://github.com/avvazana/Circle-Guy/raw/master/assets/ghostMovements.png "Logo Title Text 1")
 
 
 
