@@ -8,14 +8,28 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 1180px;
-  /* margin-left: 50px; */
+  width: 1200px;
 }
 
 #status {
-  font-size: 17px;
-  /* margin-left: 400px; */
-  position: relative;
+  font-size: 35px;
+  position: absolute;
+  z-index: 2;
+  width: 370px;
+  opacity: .85;
+  margin-top: 300px;
+}
+
+.website{
+  color: #edef75;
+}
+
+.linkedin{
+  color: #edef75;
+}
+
+.github{
+  color: #edef75;
 }
 
 .pacman-page{
