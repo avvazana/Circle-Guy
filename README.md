@@ -1,5 +1,6 @@
 # Circle-Guy
-A Pacman-inspired game.
+A Pacman-inspired game built using JavaScript.
+
 [Circle-Guy Live](https://avivazana.com/Circle-Guy/)
 
 ## Instructions 
