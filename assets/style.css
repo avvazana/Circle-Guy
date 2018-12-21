@@ -20,6 +20,16 @@
   margin-left: 470px;
 }
 
+.personalInfo{
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-family: sans-serif;
+  color: #edef75;
+}
+
 .links{
   justify-content: flex-end;
 }
